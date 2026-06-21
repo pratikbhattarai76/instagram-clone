@@ -79,3 +79,18 @@ body{
     font-weight: 500;
     border-radius: 10px;
 }
+
+.tabs{
+    max-width: 900px;
+    margin: 30px auto 0;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tabs img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
