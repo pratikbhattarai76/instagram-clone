@@ -13,8 +13,9 @@ body{
     width:720px ;
     margin: 40px auto;
     display: flex;
-    gap: 40px;
+    gap: 30px 40px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .profile-pic {
@@ -23,16 +24,12 @@ body{
     border-radius: 50%;
 }
 
-.info{
-    width: 100%;
-}
-
 .info h1{
     font-size: 20px;
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 6px;
+    margin-bottom: 12px;
 }
 
 .settings{
@@ -46,16 +43,29 @@ body{
     height: 20px;
 }
 
+.details{
+    display: flex;
+    gap: 24px;
+    font-size:16px;
+    margin-bottom:18px;
+}
+
+.details span{
+    white-space: nowrap;
+}
 .bio{
     font-size: 15px;
+    margin-bottom: 35px;
 }
+
 .name{
-    font: size 18px;
+    font-size: 16px;
     margin-bottom: 8px;
 }
 
 .buttons{
     display: flex;
+    width: 100%;
     gap: 12px;
 }
 
