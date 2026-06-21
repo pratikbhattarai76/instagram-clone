@@ -1,6 +1,6 @@
 # Instagram Clone
 
-This repository contains a static cloned version of my instagam profile. 
+This repository contains a static cloned website of my instagam profile. 
 
 ---
 
