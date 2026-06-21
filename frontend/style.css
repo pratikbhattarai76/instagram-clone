@@ -10,10 +10,11 @@ body{
 }
 
 .profile{
-    max-width: 900px;
-    margin: 40px;
+    width:720px ;
+    margin: 40px auto;
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .profile-pic {
@@ -22,8 +23,16 @@ body{
     border-radius: 50%;
 }
 
+.info{
+    width: 100%;
+}
+
 .info h1{
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
 }
 
 .settings{
@@ -35,4 +44,28 @@ body{
 .settings img{
     width: 20px;
     height: 20px;
+}
+
+.bio{
+    font-size: 15px;
+}
+.name{
+    font: size 18px;
+    margin-bottom: 8px;
+}
+
+.buttons{
+    display: flex;
+    gap: 12px;
+}
+
+.buttons button{
+    flex: 1;
+    padding: 6px;
+    border: none;
+    background-color: #eef0f3;
+    cursor: pointer;
+    font-size:14px;
+    font-weight: 500;
+    border-radius: 10px;
 }
